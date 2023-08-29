@@ -1,5 +1,6 @@
 from node:14
-copy nodedb.js /nodedb.js
+copy node.js /node.js
+copy data.json /data.json
 expose 9000
 run npm install -y express body-parser
-cmd node nodedb.js
+cmd node node.js
