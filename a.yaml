@@ -5,6 +5,7 @@ metadata:
   labels:
     run: pod-test
   name: pod-test
+  namespace: djcd
 spec:
   containers:
   - image: nginx
