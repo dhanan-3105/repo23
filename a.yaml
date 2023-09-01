@@ -5,10 +5,10 @@ metadata:
   labels:
     run: pod-test
   name: pod-test
-  namespace: djcd
+  namespace: devops-tools
 spec:
   containers:
-  - image: nginx
+  - image: docker.io/nginx:latest
     name: pod-test
     resources: {}
   dnsPolicy: ClusterFirst
